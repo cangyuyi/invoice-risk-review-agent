@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env*
+.venv/
+venv/
+work/
+private/
+*_private.json
+*.jpg
+*.jpeg
+*.png
+*.pdf
+交付说明.md
