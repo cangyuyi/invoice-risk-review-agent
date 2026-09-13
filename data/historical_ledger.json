@@ -1,0 +1,222 @@
+[
+  {
+    "record_id": "H-001",
+    "invoice_code": "",
+    "invoice_number": "DEMO-INV-20260516-002",
+    "issue_date": "2026-05-16",
+    "seller_name": "演示电子科技有限公司",
+    "seller_tax_id": "SELLER-TAX-DEMO-002",
+    "total_amount": 88.2,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-002",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-002",
+    "issue_date": "2026-05-10",
+    "seller_name": "演示文具有限公司",
+    "seller_tax_id": "SELLER-TAX-DEMO-004",
+    "total_amount": 40.9,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-003",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-003",
+    "issue_date": "2026-04-01",
+    "seller_name": "上海示例办公用品有限公司",
+    "seller_tax_id": "91310000DEMO000003",
+    "total_amount": 126.8,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-004",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-004",
+    "issue_date": "2026-04-02",
+    "seller_name": "上海示例交通服务有限公司",
+    "seller_tax_id": "91310000DEMO000004",
+    "total_amount": 52,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-005",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-005",
+    "issue_date": "2026-04-03",
+    "seller_name": "杭州示例科技有限公司",
+    "seller_tax_id": "91330100DEMO000005",
+    "total_amount": 299,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-006",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-006",
+    "issue_date": "2026-04-05",
+    "seller_name": "苏州示例酒店有限公司",
+    "seller_tax_id": "91320500DEMO000006",
+    "total_amount": 568,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-007",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-007",
+    "issue_date": "2026-04-06",
+    "seller_name": "南京示例餐饮有限公司",
+    "seller_tax_id": "91320100DEMO000007",
+    "total_amount": 186.5,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-008",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-008",
+    "issue_date": "2026-04-08",
+    "seller_name": "北京示例出行有限公司",
+    "seller_tax_id": "91110100DEMO000008",
+    "total_amount": 78.3,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-009",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-009",
+    "issue_date": "2026-04-10",
+    "seller_name": "广州示例印刷有限公司",
+    "seller_tax_id": "91440100DEMO000009",
+    "total_amount": 430,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-010",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-010",
+    "issue_date": "2026-04-12",
+    "seller_name": "深圳示例电子有限公司",
+    "seller_tax_id": "91440300DEMO000010",
+    "total_amount": 159.9,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-011",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-011",
+    "issue_date": "2026-04-13",
+    "seller_name": "长沙示例商贸有限公司",
+    "seller_tax_id": "91430100DEMO000011",
+    "total_amount": 98,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-012",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-012",
+    "issue_date": "2026-04-15",
+    "seller_name": "武汉示例会务有限公司",
+    "seller_tax_id": "91420100DEMO000012",
+    "total_amount": 1200,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-013",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-013",
+    "issue_date": "2026-04-17",
+    "seller_name": "成都示例广告有限公司",
+    "seller_tax_id": "91510100DEMO000013",
+    "total_amount": 680,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-014",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-014",
+    "issue_date": "2026-04-18",
+    "seller_name": "重庆示例物流有限公司",
+    "seller_tax_id": "91500100DEMO000014",
+    "total_amount": 215.6,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-015",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-015",
+    "issue_date": "2026-04-20",
+    "seller_name": "西安示例文具有限公司",
+    "seller_tax_id": "91610100DEMO000015",
+    "total_amount": 65,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-016",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-016",
+    "issue_date": "2026-04-21",
+    "seller_name": "天津示例咨询有限公司",
+    "seller_tax_id": "91120100DEMO000016",
+    "total_amount": 900,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-017",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-017",
+    "issue_date": "2026-04-23",
+    "seller_name": "青岛示例网络有限公司",
+    "seller_tax_id": "91370200DEMO000017",
+    "total_amount": 199,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-018",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-018",
+    "issue_date": "2026-04-25",
+    "seller_name": "厦门示例文化有限公司",
+    "seller_tax_id": "91350200DEMO000018",
+    "total_amount": 350,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-019",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-019",
+    "issue_date": "2026-04-27",
+    "seller_name": "济南示例培训有限公司",
+    "seller_tax_id": "91370100DEMO000019",
+    "total_amount": 480,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  },
+  {
+    "record_id": "H-020",
+    "invoice_code": "",
+    "invoice_number": "DEMO-HIST-020",
+    "issue_date": "2026-04-29",
+    "seller_name": "郑州示例软件有限公司",
+    "seller_tax_id": "91410100DEMO000020",
+    "total_amount": 260,
+    "reimbursement_status": "paid",
+    "data_origin": "synthetic_for_demo"
+  }
+]
