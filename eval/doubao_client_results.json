@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "sample_size": 5,
+    "unique_image_count": 4,
+    "exact_duplicate_images": 1,
+    "invoice_number_accuracy": 0.4,
+    "issue_date_accuracy": 1,
+    "total_amount_accuracy": 1,
+    "fully_correct_rate": 0.4,
+    "automatic_approval_rate": 0.0,
+    "scope": "Doubao desktop client, manually triggered, five user-provided test images; raw values remain private"
+  },
+  "results": [
+    {
+      "alias": "INV-05",
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": true,
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-02",
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": true,
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-01",
+      "invoice_number_correct": false,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": false,
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-03",
+      "invoice_number_correct": false,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": false,
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-04",
+      "invoice_number_correct": false,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": false,
+      "action": "manual_review"
+    }
+  ]
+}

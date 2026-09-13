@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "sample_size": 5,
+    "invoice_number_accuracy": 0.8,
+    "issue_date_accuracy": 0.4,
+    "total_amount_accuracy": 1.0,
+    "automatic_approval_rate": 0.0,
+    "scope": "local Tesseract baseline on five user-provided test images; raw values remain private"
+  },
+  "results": [
+    {
+      "alias": "INV-05",
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "predicted_number_length": 20,
+      "number_modes_agree": false,
+      "confidence": "low",
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-01",
+      "invoice_number_correct": true,
+      "issue_date_correct": false,
+      "total_amount_correct": true,
+      "predicted_number_length": 20,
+      "number_modes_agree": true,
+      "confidence": "medium",
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-02",
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "predicted_number_length": 20,
+      "number_modes_agree": false,
+      "confidence": "low",
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-04",
+      "invoice_number_correct": false,
+      "issue_date_correct": false,
+      "total_amount_correct": true,
+      "predicted_number_length": 20,
+      "number_modes_agree": true,
+      "confidence": "medium",
+      "action": "manual_review"
+    },
+    {
+      "alias": "INV-03",
+      "invoice_number_correct": true,
+      "issue_date_correct": false,
+      "total_amount_correct": true,
+      "predicted_number_length": 20,
+      "number_modes_agree": true,
+      "confidence": "medium",
+      "action": "manual_review"
+    }
+  ]
+}

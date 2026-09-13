@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "total": 5,
+    "high_risk": 2,
+    "manual_review": 5,
+    "auto_pass": 0
+  },
+  "results": [
+    {
+      "record_id": "IN-001",
+      "risk_level": "high",
+      "decision": "confirmed_duplicate",
+      "action": "hold_for_manual_review",
+      "rule_ids": [
+        "R10",
+        "R11"
+      ],
+      "evidence": [
+        "same file hash appears 2 times in this batch",
+        "same invoice ID appears 2 times in this batch"
+      ]
+    },
+    {
+      "record_id": "IN-002",
+      "risk_level": "high",
+      "decision": "confirmed_duplicate",
+      "action": "hold_for_manual_review",
+      "rule_ids": [
+        "R10",
+        "R11"
+      ],
+      "evidence": [
+        "same file hash appears 2 times in this batch",
+        "same invoice ID appears 2 times in this batch"
+      ]
+    },
+    {
+      "record_id": "IN-003",
+      "risk_level": "medium",
+      "decision": "suspected_duplicate",
+      "action": "manual_review",
+      "rule_ids": [
+        "R30"
+      ],
+      "evidence": [
+        "same seller and amount within 3 days of historical record H-001"
+      ]
+    },
+    {
+      "record_id": "IN-004",
+      "risk_level": "medium",
+      "decision": "unverified_invoice_status",
+      "action": "manual_review",
+      "rule_ids": [
+        "R40"
+      ],
+      "evidence": [
+        "QR fields decoded; tax validity, red-letter and void status not verified"
+      ]
+    },
+    {
+      "record_id": "IN-005",
+      "risk_level": "medium",
+      "decision": "suspected_duplicate",
+      "action": "manual_review",
+      "rule_ids": [
+        "R30"
+      ],
+      "evidence": [
+        "same seller and amount within 3 days of historical record H-002"
+      ]
+    }
+  ],
+  "scope": "private invoice images + QR fields + synthetic demo metadata and ledger; no tax-authority verification"
+}

@@ -1,0 +1,639 @@
+{
+  "version": "v1.0",
+  "scope": "structured duplicate-decision layer; excludes OCR and tax-platform verification",
+  "data_origin": "fully synthetic",
+  "groups": [
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "incoming": [
+        {
+          "record_id": "N01",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-01",
+          "issue_date": "2026-06-01",
+          "seller_name": "演示销售方-SELLER-N-01",
+          "seller_tax_id": "SELLER-N-01",
+          "total_amount": 21,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "N02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-02",
+          "issue_date": "2026-06-02",
+          "seller_name": "演示销售方-SELLER-N-02",
+          "seller_tax_id": "SELLER-N-02",
+          "total_amount": 22,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "N03",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-03",
+          "issue_date": "2026-06-03",
+          "seller_name": "演示销售方-SELLER-N-03",
+          "seller_tax_id": "SELLER-N-03",
+          "total_amount": 23,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "N04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-04",
+          "issue_date": "2026-06-04",
+          "seller_name": "演示销售方-SELLER-N-04",
+          "seller_tax_id": "SELLER-N-04",
+          "total_amount": 24,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "N05",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-05",
+          "issue_date": "2026-06-05",
+          "seller_name": "演示销售方-SELLER-N-05",
+          "seller_tax_id": "SELLER-N-05",
+          "total_amount": 25,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "N06",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-06",
+          "issue_date": "2026-06-06",
+          "seller_name": "演示销售方-SELLER-N-06",
+          "seller_tax_id": "SELLER-N-06",
+          "total_amount": 26,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "N07",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-07",
+          "issue_date": "2026-06-07",
+          "seller_name": "演示销售方-SELLER-N-07",
+          "seller_tax_id": "SELLER-N-07",
+          "total_amount": 27,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "N08",
+          "invoice_code": "",
+          "invoice_number": "DEMO-N-08",
+          "issue_date": "2026-06-08",
+          "seller_name": "演示销售方-SELLER-N-08",
+          "seller_tax_id": "SELLER-N-08",
+          "total_amount": 28,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        }
+      ],
+      "ledger": [],
+      "expected": {
+        "N01": "clear",
+        "N02": "clear",
+        "N03": "clear",
+        "N04": "clear",
+        "N05": "clear",
+        "N06": "clear",
+        "N07": "clear",
+        "N08": "clear"
+      }
+    },
+    {
+      "group_id": "G-BATCH",
+      "category": "batch_duplicate",
+      "incoming": [
+        {
+          "record_id": "B01",
+          "invoice_code": "",
+          "invoice_number": "DEMO-B-01",
+          "issue_date": "2026-06-10",
+          "seller_name": "演示销售方-SELLER-B-01",
+          "seller_tax_id": "SELLER-B-01",
+          "total_amount": 100,
+          "file_sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "B02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-B-01",
+          "issue_date": "2026-06-10",
+          "seller_name": "演示销售方-SELLER-B-01",
+          "seller_tax_id": "SELLER-B-01",
+          "total_amount": 100,
+          "file_sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "B03",
+          "invoice_code": "",
+          "invoice_number": "DEMO-B-02",
+          "issue_date": "2026-06-11",
+          "seller_name": "演示销售方-SELLER-B-02",
+          "seller_tax_id": "SELLER-B-02",
+          "total_amount": 110,
+          "file_sha256": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "B04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-B-02",
+          "issue_date": "2026-06-11",
+          "seller_name": "演示销售方-SELLER-B-02",
+          "seller_tax_id": "SELLER-B-02",
+          "total_amount": 110,
+          "file_sha256": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "B05",
+          "invoice_code": "",
+          "invoice_number": "DEMO-B-03",
+          "issue_date": "2026-06-12",
+          "seller_name": "演示销售方-SELLER-B-03",
+          "seller_tax_id": "SELLER-B-03",
+          "total_amount": 120,
+          "file_sha256": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "B06",
+          "invoice_code": "",
+          "invoice_number": "DEMO-B-04",
+          "issue_date": "2026-06-12",
+          "seller_name": "演示销售方-SELLER-B-03",
+          "seller_tax_id": "SELLER-B-03",
+          "total_amount": 120,
+          "file_sha256": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+          "data_origin": "synthetic_golden_set"
+        }
+      ],
+      "ledger": [],
+      "expected": {
+        "B01": "confirmed_duplicate",
+        "B02": "confirmed_duplicate",
+        "B03": "confirmed_duplicate",
+        "B04": "confirmed_duplicate",
+        "B05": "confirmed_duplicate",
+        "B06": "confirmed_duplicate"
+      }
+    },
+    {
+      "group_id": "G-HISTORY",
+      "category": "history_exact_duplicate",
+      "incoming": [
+        {
+          "record_id": "H01",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-01",
+          "issue_date": "2026-06-11",
+          "seller_name": "演示销售方-SELLER-H-01",
+          "seller_tax_id": "SELLER-H-01",
+          "total_amount": 201,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "H02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-02",
+          "issue_date": "2026-06-12",
+          "seller_name": "演示销售方-SELLER-H-02",
+          "seller_tax_id": "SELLER-H-02",
+          "total_amount": 202,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "H03",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-03",
+          "issue_date": "2026-06-13",
+          "seller_name": "演示销售方-SELLER-H-03",
+          "seller_tax_id": "SELLER-H-03",
+          "total_amount": 203,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "H04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-04",
+          "issue_date": "2026-06-14",
+          "seller_name": "演示销售方-SELLER-H-04",
+          "seller_tax_id": "SELLER-H-04",
+          "total_amount": 204,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "H05",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-05",
+          "issue_date": "2026-06-15",
+          "seller_name": "演示销售方-SELLER-H-05",
+          "seller_tax_id": "SELLER-H-05",
+          "total_amount": 205,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "H06",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-06",
+          "issue_date": "2026-06-16",
+          "seller_name": "演示销售方-SELLER-H-06",
+          "seller_tax_id": "SELLER-H-06",
+          "total_amount": 206,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        }
+      ],
+      "ledger": [
+        {
+          "record_id": "LEDGER-H-01",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-01",
+          "issue_date": "2026-06-11",
+          "seller_name": "演示销售方-SELLER-H-01",
+          "seller_tax_id": "SELLER-H-01",
+          "total_amount": 201,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-H-02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-02",
+          "issue_date": "2026-06-12",
+          "seller_name": "演示销售方-SELLER-H-02",
+          "seller_tax_id": "SELLER-H-02",
+          "total_amount": 202,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-H-03",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-03",
+          "issue_date": "2026-06-13",
+          "seller_name": "演示销售方-SELLER-H-03",
+          "seller_tax_id": "SELLER-H-03",
+          "total_amount": 203,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-H-04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-04",
+          "issue_date": "2026-06-14",
+          "seller_name": "演示销售方-SELLER-H-04",
+          "seller_tax_id": "SELLER-H-04",
+          "total_amount": 204,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-H-05",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-05",
+          "issue_date": "2026-06-15",
+          "seller_name": "演示销售方-SELLER-H-05",
+          "seller_tax_id": "SELLER-H-05",
+          "total_amount": 205,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-H-06",
+          "invoice_code": "",
+          "invoice_number": "DEMO-H-06",
+          "issue_date": "2026-06-16",
+          "seller_name": "演示销售方-SELLER-H-06",
+          "seller_tax_id": "SELLER-H-06",
+          "total_amount": 206,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        }
+      ],
+      "expected": {
+        "H01": "confirmed_duplicate",
+        "H02": "confirmed_duplicate",
+        "H03": "confirmed_duplicate",
+        "H04": "confirmed_duplicate",
+        "H05": "confirmed_duplicate",
+        "H06": "confirmed_duplicate"
+      }
+    },
+    {
+      "group_id": "G-SUSPECT",
+      "category": "suspected_duplicate",
+      "incoming": [
+        {
+          "record_id": "S01",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-NEW-01",
+          "issue_date": "2026-07-11",
+          "seller_name": "演示销售方-SELLER-S-01",
+          "seller_tax_id": "SELLER-S-01",
+          "total_amount": 301,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "S02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-NEW-02",
+          "issue_date": "2026-07-12",
+          "seller_name": "演示销售方-SELLER-S-02",
+          "seller_tax_id": "SELLER-S-02",
+          "total_amount": 302,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "S03",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-NEW-03",
+          "issue_date": "2026-07-13",
+          "seller_name": "演示销售方-SELLER-S-03",
+          "seller_tax_id": "SELLER-S-03",
+          "total_amount": 303,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "S04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-NEW-04",
+          "issue_date": "2026-07-14",
+          "seller_name": "演示销售方-SELLER-S-04",
+          "seller_tax_id": "SELLER-S-04",
+          "total_amount": 304,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "S05",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-NEW-05",
+          "issue_date": "2026-07-15",
+          "seller_name": "演示销售方-SELLER-S-05",
+          "seller_tax_id": "SELLER-S-05",
+          "total_amount": 305,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "S06",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-NEW-06",
+          "issue_date": "2026-07-16",
+          "seller_name": "演示销售方-SELLER-S-06",
+          "seller_tax_id": "SELLER-S-06",
+          "total_amount": 306,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        }
+      ],
+      "ledger": [
+        {
+          "record_id": "LEDGER-S-01",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-OLD-01",
+          "issue_date": "2026-07-10",
+          "seller_name": "演示销售方-SELLER-S-01",
+          "seller_tax_id": "SELLER-S-01",
+          "total_amount": 301,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-S-02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-OLD-02",
+          "issue_date": "2026-07-11",
+          "seller_name": "演示销售方-SELLER-S-02",
+          "seller_tax_id": "SELLER-S-02",
+          "total_amount": 302,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-S-03",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-OLD-03",
+          "issue_date": "2026-07-12",
+          "seller_name": "演示销售方-SELLER-S-03",
+          "seller_tax_id": "SELLER-S-03",
+          "total_amount": 303,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-S-04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-OLD-04",
+          "issue_date": "2026-07-13",
+          "seller_name": "演示销售方-SELLER-S-04",
+          "seller_tax_id": "SELLER-S-04",
+          "total_amount": 304,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-S-05",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-OLD-05",
+          "issue_date": "2026-07-14",
+          "seller_name": "演示销售方-SELLER-S-05",
+          "seller_tax_id": "SELLER-S-05",
+          "total_amount": 305,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        },
+        {
+          "record_id": "LEDGER-S-06",
+          "invoice_code": "",
+          "invoice_number": "DEMO-S-OLD-06",
+          "issue_date": "2026-07-15",
+          "seller_name": "演示销售方-SELLER-S-06",
+          "seller_tax_id": "SELLER-S-06",
+          "total_amount": 306,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set",
+          "reimbursement_status": "paid"
+        }
+      ],
+      "expected": {
+        "S01": "suspected_duplicate",
+        "S02": "suspected_duplicate",
+        "S03": "suspected_duplicate",
+        "S04": "suspected_duplicate",
+        "S05": "suspected_duplicate",
+        "S06": "suspected_duplicate"
+      }
+    },
+    {
+      "group_id": "G-INVALID",
+      "category": "invalid_or_missing_fields",
+      "incoming": [
+        {
+          "record_id": "I01",
+          "invoice_code": "",
+          "invoice_number": "",
+          "issue_date": "2026-07-20",
+          "seller_name": "演示销售方-SELLER-I-01",
+          "seller_tax_id": "SELLER-I-01",
+          "total_amount": 10,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "I02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-I-02",
+          "issue_date": "2026-99-20",
+          "seller_name": "演示销售方-SELLER-I-02",
+          "seller_tax_id": "SELLER-I-02",
+          "total_amount": 20,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "I03",
+          "invoice_code": "",
+          "invoice_number": "DEMO-I-03",
+          "issue_date": "not-a-date",
+          "seller_name": "演示销售方-SELLER-I-03",
+          "seller_tax_id": "SELLER-I-03",
+          "total_amount": 30,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "I04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-I-04",
+          "issue_date": "2026-07-21",
+          "seller_name": "演示销售方-SELLER-I-04",
+          "seller_tax_id": "SELLER-I-04",
+          "total_amount": "not-money",
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "I05",
+          "invoice_code": "",
+          "invoice_number": "DEMO-I-05",
+          "issue_date": "2026-07-22",
+          "seller_name": "演示销售方-SELLER-I-05",
+          "seller_tax_id": "SELLER-I-05",
+          "total_amount": null,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "I06",
+          "invoice_code": "",
+          "invoice_number": "DEMO-I-06",
+          "issue_date": null,
+          "seller_name": "演示销售方-SELLER-I-06",
+          "seller_tax_id": "SELLER-I-06",
+          "total_amount": 60,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        }
+      ],
+      "ledger": [],
+      "expected": {
+        "I01": "missing_key_field",
+        "I02": "invalid_input",
+        "I03": "invalid_input",
+        "I04": "invalid_input",
+        "I05": "invalid_input",
+        "I06": "invalid_input"
+      }
+    },
+    {
+      "group_id": "G-EDGE",
+      "category": "normalization_edges",
+      "incoming": [
+        {
+          "record_id": "E01",
+          "invoice_code": "",
+          "invoice_number": "   ",
+          "issue_date": "2026-07-23",
+          "seller_name": "演示销售方-SELLER-E-01",
+          "seller_tax_id": "SELLER-E-01",
+          "total_amount": 70,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "E02",
+          "invoice_code": "",
+          "invoice_number": "DEMO-E-02",
+          "issue_date": "2026-07-24",
+          "seller_name": "演示销售方-SELLER-E-02",
+          "seller_tax_id": "SELLER-E-02",
+          "total_amount": "80.00",
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "E03",
+          "invoice_code": "",
+          "invoice_number": " demo-e-03 ",
+          "issue_date": "2026-07-25",
+          "seller_name": "演示销售方-SELLER-E-03",
+          "seller_tax_id": "SELLER-E-03",
+          "total_amount": 90,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        },
+        {
+          "record_id": "E04",
+          "invoice_code": "",
+          "invoice_number": "DEMO-E-04",
+          "issue_date": "2026-07-26",
+          "seller_name": "演示销售方-SELLER-E-04",
+          "seller_tax_id": "SELLER-E-04",
+          "total_amount": 9999999.99,
+          "file_sha256": "",
+          "data_origin": "synthetic_golden_set"
+        }
+      ],
+      "ledger": [],
+      "expected": {
+        "E01": "missing_key_field",
+        "E02": "clear",
+        "E03": "clear",
+        "E04": "clear"
+      }
+    }
+  ]
+}

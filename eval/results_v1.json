@@ -1,0 +1,419 @@
+{
+  "version": "v1.0",
+  "summary": {
+    "total": 36,
+    "passed": 36,
+    "failed": 0,
+    "decision_accuracy": 1.0
+  },
+  "by_category": {
+    "batch_duplicate": {
+      "total": 6,
+      "passed": 6,
+      "accuracy": 1.0
+    },
+    "history_exact_duplicate": {
+      "total": 6,
+      "passed": 6,
+      "accuracy": 1.0
+    },
+    "invalid_or_missing_fields": {
+      "total": 6,
+      "passed": 6,
+      "accuracy": 1.0
+    },
+    "normal_unique": {
+      "total": 8,
+      "passed": 8,
+      "accuracy": 1.0
+    },
+    "normalization_edges": {
+      "total": 4,
+      "passed": 4,
+      "accuracy": 1.0
+    },
+    "suspected_duplicate": {
+      "total": 6,
+      "passed": 6,
+      "accuracy": 1.0
+    }
+  },
+  "results": [
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N01",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N02",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N03",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N04",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N05",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N06",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N07",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-NORMAL",
+      "category": "normal_unique",
+      "record_id": "N08",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-BATCH",
+      "category": "batch_duplicate",
+      "record_id": "B01",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "group_id": "G-BATCH",
+      "category": "batch_duplicate",
+      "record_id": "B02",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R10",
+        "R11"
+      ]
+    },
+    {
+      "group_id": "G-BATCH",
+      "category": "batch_duplicate",
+      "record_id": "B03",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R11"
+      ]
+    },
+    {
+      "group_id": "G-BATCH",
+      "category": "batch_duplicate",
+      "record_id": "B04",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R11"
+      ]
+    },
+    {
+      "group_id": "G-BATCH",
+      "category": "batch_duplicate",
+      "record_id": "B05",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R10"
+      ]
+    },
+    {
+      "group_id": "G-BATCH",
+      "category": "batch_duplicate",
+      "record_id": "B06",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R10"
+      ]
+    },
+    {
+      "group_id": "G-HISTORY",
+      "category": "history_exact_duplicate",
+      "record_id": "H01",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R20"
+      ]
+    },
+    {
+      "group_id": "G-HISTORY",
+      "category": "history_exact_duplicate",
+      "record_id": "H02",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R20"
+      ]
+    },
+    {
+      "group_id": "G-HISTORY",
+      "category": "history_exact_duplicate",
+      "record_id": "H03",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R20"
+      ]
+    },
+    {
+      "group_id": "G-HISTORY",
+      "category": "history_exact_duplicate",
+      "record_id": "H04",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R20"
+      ]
+    },
+    {
+      "group_id": "G-HISTORY",
+      "category": "history_exact_duplicate",
+      "record_id": "H05",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R20"
+      ]
+    },
+    {
+      "group_id": "G-HISTORY",
+      "category": "history_exact_duplicate",
+      "record_id": "H06",
+      "expected": "confirmed_duplicate",
+      "actual": "confirmed_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R20"
+      ]
+    },
+    {
+      "group_id": "G-SUSPECT",
+      "category": "suspected_duplicate",
+      "record_id": "S01",
+      "expected": "suspected_duplicate",
+      "actual": "suspected_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R30"
+      ]
+    },
+    {
+      "group_id": "G-SUSPECT",
+      "category": "suspected_duplicate",
+      "record_id": "S02",
+      "expected": "suspected_duplicate",
+      "actual": "suspected_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R30"
+      ]
+    },
+    {
+      "group_id": "G-SUSPECT",
+      "category": "suspected_duplicate",
+      "record_id": "S03",
+      "expected": "suspected_duplicate",
+      "actual": "suspected_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R30"
+      ]
+    },
+    {
+      "group_id": "G-SUSPECT",
+      "category": "suspected_duplicate",
+      "record_id": "S04",
+      "expected": "suspected_duplicate",
+      "actual": "suspected_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R30"
+      ]
+    },
+    {
+      "group_id": "G-SUSPECT",
+      "category": "suspected_duplicate",
+      "record_id": "S05",
+      "expected": "suspected_duplicate",
+      "actual": "suspected_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R30"
+      ]
+    },
+    {
+      "group_id": "G-SUSPECT",
+      "category": "suspected_duplicate",
+      "record_id": "S06",
+      "expected": "suspected_duplicate",
+      "actual": "suspected_duplicate",
+      "passed": true,
+      "rule_ids": [
+        "R30"
+      ]
+    },
+    {
+      "group_id": "G-INVALID",
+      "category": "invalid_or_missing_fields",
+      "record_id": "I01",
+      "expected": "missing_key_field",
+      "actual": "missing_key_field",
+      "passed": true,
+      "rule_ids": [
+        "R01"
+      ]
+    },
+    {
+      "group_id": "G-INVALID",
+      "category": "invalid_or_missing_fields",
+      "record_id": "I02",
+      "expected": "invalid_input",
+      "actual": "invalid_input",
+      "passed": true,
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "group_id": "G-INVALID",
+      "category": "invalid_or_missing_fields",
+      "record_id": "I03",
+      "expected": "invalid_input",
+      "actual": "invalid_input",
+      "passed": true,
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "group_id": "G-INVALID",
+      "category": "invalid_or_missing_fields",
+      "record_id": "I04",
+      "expected": "invalid_input",
+      "actual": "invalid_input",
+      "passed": true,
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "group_id": "G-INVALID",
+      "category": "invalid_or_missing_fields",
+      "record_id": "I05",
+      "expected": "invalid_input",
+      "actual": "invalid_input",
+      "passed": true,
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "group_id": "G-INVALID",
+      "category": "invalid_or_missing_fields",
+      "record_id": "I06",
+      "expected": "invalid_input",
+      "actual": "invalid_input",
+      "passed": true,
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "group_id": "G-EDGE",
+      "category": "normalization_edges",
+      "record_id": "E01",
+      "expected": "missing_key_field",
+      "actual": "missing_key_field",
+      "passed": true,
+      "rule_ids": [
+        "R01"
+      ]
+    },
+    {
+      "group_id": "G-EDGE",
+      "category": "normalization_edges",
+      "record_id": "E02",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-EDGE",
+      "category": "normalization_edges",
+      "record_id": "E03",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    },
+    {
+      "group_id": "G-EDGE",
+      "category": "normalization_edges",
+      "record_id": "E04",
+      "expected": "clear",
+      "actual": "clear",
+      "passed": true,
+      "rule_ids": []
+    }
+  ]
+}

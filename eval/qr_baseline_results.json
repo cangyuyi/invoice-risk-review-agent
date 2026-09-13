@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "sample_size": 5,
+    "unique_image_count": 4,
+    "qr_decode_rate": 1.0,
+    "invoice_number_accuracy": 1.0,
+    "issue_date_accuracy": 1.0,
+    "total_amount_accuracy": 1.0,
+    "fully_correct_rate": 1.0,
+    "risk_decision_automatic_approval_rate": 0.0,
+    "scope": "local QR decoding; field extraction only, not invoice authenticity verification"
+  },
+  "results": [
+    {
+      "alias": "INV-05",
+      "qr_decoded": true,
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": true,
+      "action": "manual_review_until_tax_authority_verification"
+    },
+    {
+      "alias": "INV-01",
+      "qr_decoded": true,
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": true,
+      "action": "manual_review_until_tax_authority_verification"
+    },
+    {
+      "alias": "INV-02",
+      "qr_decoded": true,
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": true,
+      "action": "manual_review_until_tax_authority_verification"
+    },
+    {
+      "alias": "INV-04",
+      "qr_decoded": true,
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": true,
+      "action": "manual_review_until_tax_authority_verification"
+    },
+    {
+      "alias": "INV-03",
+      "qr_decoded": true,
+      "invoice_number_correct": true,
+      "issue_date_correct": true,
+      "total_amount_correct": true,
+      "fully_correct": true,
+      "action": "manual_review_until_tax_authority_verification"
+    }
+  ]
+}

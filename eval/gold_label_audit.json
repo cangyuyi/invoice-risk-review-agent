@@ -1,0 +1,22 @@
+{
+  "updated_labels": 2,
+  "date_and_amount_verified_for": 5,
+  "changes": [
+    {
+      "alias": "INV-05",
+      "field": "invoice_number",
+      "old_length": 19,
+      "new_length": 20,
+      "source": "invoice_qr_payload",
+      "reason": "original manual label omitted one digit"
+    },
+    {
+      "alias": "INV-02",
+      "field": "invoice_number",
+      "old_length": 19,
+      "new_length": 20,
+      "source": "invoice_qr_payload",
+      "reason": "original manual label omitted one digit"
+    }
+  ]
+}
