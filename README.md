@@ -11,7 +11,7 @@
 
 ## 交互演示
 
-[打开 Demo 源文件](./demo/index.html) · [查看完整实现](https://github.com/cangyuyi/invoice-risk-review-agent)
+[▶️ 在线体验 Demo](https://cangyuyi.github.io/invoice-risk-review-agent/) · [打开 Demo 源文件](./demo/index.html) · [查看完整实现](https://github.com/cangyuyi/invoice-risk-review-agent)
 
 Demo 支持筛选审核队列、查看规则证据、记录人工复核。页面使用仓库内合成结构化数据，不连接税务平台，不执行真实审批。
 
